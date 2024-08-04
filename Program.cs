@@ -18,3 +18,38 @@
 // - **DateTime**: Tarih ve saat bilgisini tutar.
 // - **TimeSpan**: İki zaman noktası arasındaki farkı temsil eder.
 // - **Guid**: Global benzersiz tanımlayıcı (GUID) temsil eder. 128-bitlik benzersiz bir tanımlayıcıdır.
+
+//bütün classları içerisinden isim havuzu.
+ public class Harun
+ {
+    public static void Main(){
+        Worker worker = new Worker();
+
+        System.Console.WriteLine("LÜTFEN BOŞLUKLARI DOLDURUNUZ");
+
+        // Boy alma
+        System.Console.WriteLine("Boyunuzu Giriniz:");
+        worker.Boy = Convert.ToInt32(Console.ReadLine());
+
+        // Kilo alma
+        System.Console.WriteLine("Kilonuzu Giriniz:");
+        worker.Kilo = Convert.ToInt32(Console.ReadLine());
+
+        // Adres alma
+        System.Console.WriteLine("Adresinizi Giriniz:");
+        worker.Address = Console.ReadLine();
+
+        // Ayakkabı numarası alma
+        System.Console.WriteLine("Ayakkabı numarasını Giriniz:");
+        worker.AyakkabiNumarasi = Convert.ToInt32(Console.ReadLine());
+
+        // Vardiya alma
+        System.Console.WriteLine("Vardiyanızı Giriniz:");
+        worker.Shift = Console.ReadLine();
+
+        // Çalışma saatini alma
+        System.Console.WriteLine("Çalışma saatini Giriniz:");
+        worker.CalismaSaati = Convert.ToInt32(Console.ReadLine());
+
+    }
+ }
